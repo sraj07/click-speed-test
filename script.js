@@ -1,3 +1,5 @@
+//Le JS
+
 var clicks = 0;
 var timer = 5;
     
