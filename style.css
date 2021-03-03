@@ -1,0 +1,53 @@
+body{
+  background-color: lemonchiffon;
+}
+
+#btn{
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 150px;
+  font-family: "Londrina Solid", cursive;
+  background-color: lightcyan;
+  display: block;
+}
+
+#btn:active{
+  margin-top: 105px;
+}
+
+#btn{
+  cursor: pointer;
+}
+
+#cst{
+  font-size: 75px;
+}
+
+#score{
+  margin-top: 50px;
+}
+
+#time{
+  margin-top: 30px;
+}
+
+.hthree{
+  font-size: 50px;
+}
+
+.text{
+  margin: auto;
+  text-align: center;
+  font-family: "Hachi Maru Pop", cursive;
+}
+
+/* Makes text unselectable, credits to StackOverflow */
+.noselect {
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
